@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <math.h>
-#define PI 3.14
+#define PI 3.14159
+
 int main(int argc, char* argv[]){
 
     char opcao;
@@ -21,7 +22,7 @@ int main(int argc, char* argv[]){
         
     case 'c':
         printf("Circulo\n");
-         float raio, area;
+        float raio, area;
     
     // Entrada de dados
     printf("Digite o raio do circulo (em metros): ");
