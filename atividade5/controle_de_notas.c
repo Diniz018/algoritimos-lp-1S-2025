@@ -43,7 +43,7 @@ printf("Digite o numero do aluno para ver a nota (1 a %d):",n);
 scanf("%d", &k);
 
 if(k >= 1 && k <= n){
-    printf("A nota do aluno %d é: %.2f\n", k, notas[k - 1]);
+    printf("A nota do aluno %d: %.2f\n", k, notas[k - 1]);
 } 
 
    else{
